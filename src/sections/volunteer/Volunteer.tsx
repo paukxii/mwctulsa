@@ -1,5 +1,3 @@
-import React from 'react';
-import { SectionHeader } from '../../components/SectionHeader';
 import { volunteer } from '../../constants';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
