@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbar {
+    @apply fixed top-0 h-12 md:h-20 bg-mwc-nav-orange flex justify-between items-center px-5 md:px-16
+  }
+  .navbar-active {
+    @apply text-white
+  }
+  .mwc-logo {
+    @apply absolute -top-1 left-2 sm:h-20 md:h-28 lg:h-28 drop-shadow-md
+  }
+  .mobile-menu-wrapper {
+    @apply fixed top-0 right-0 bottom-0 bg-black
+  }
+  .button {
+    @apply py-4 px-8 font-medium bg-white text-black max-w-max rounded-lg border-2 border-white transition-all duration-500
+  }
+  .button:hover {
+    @apply text-white bg-black/10 border-2 transition-all duration-500
+  }
+}
