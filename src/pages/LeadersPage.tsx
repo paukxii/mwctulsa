@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation, Link } from 'react-router-dom';
+import { useLocation, Link as RouterLink } from 'react-router-dom';
 import { fav_icon, pastors } from '../constants';
 import SectionContainer from '../components/SectionContainer';
+
 interface Pastor {
   id: number;
   name: string;
@@ -36,7 +37,7 @@ function LeadersPage() {
   const isTabActive = (index: number) => activeTab === index;
 
   useEffect(() => {
-    const tabFromQuery = new URLSearchParams(location.search).get('id');
+    const tabFromQuery = new URLSearchParams(location.search).get('tab');
     console.log(tabFromQuery);
     if (tabFromQuery) setActiveTab(parseInt(tabFromQuery, 10));
   }, [location.search]);
@@ -47,7 +48,7 @@ function LeadersPage() {
   }, [activeTab]);
 
   const Home_button: React.FC = () => (
-    <Link to='/'><img src={fav_icon} alt='Home' className='h-18 w-18 sm:w-12 m-1 mx-auto sm:mx-1 drop-shadow-lg cursor-pointer' /></Link>
+    <RouterLink to='/'><img src={fav_icon} alt='Home' className='h-18 w-18 sm:w-12 m-1 mx-auto sm:mx-1 drop-shadow-lg cursor-pointer' /></RouterLink>
   );
 
   return (
@@ -66,12 +67,13 @@ function LeadersPage() {
             className={`fade-in ${isTabActive(index) ? '' : 'hidden'}`}
           >
             <img src={pastor.image} className='hidden sm:block md:block w-full mt-0 mb-2' alt={pastor.name} />
-          <SectionContainer id=''>
-            <img src={pastor.image} className='hidden lg:block mb-4 h-[670px] w-full object-cover object-top drop-shadow-xl rounded-3xl' alt={pastor.name} />
-            <h1 className='text-slate-500 font-light text-3xl'>{pastor.name}</h1>
-            <h2 className='text-slate-400 -mt-1 mb-5 text-xl font-normal'>{pastor.position}</h2>
-            <p className='font-light text-md' dangerouslySetInnerHTML={{ __html: pastor.autobiography}} />
-          </SectionContainer>
+
+            <SectionContainer id=''>
+              <img src={pastor.image} className='hidden lg:block mb-4 h-[670px] w-full object-cover object-top drop-shadow-xl rounded-3xl' alt={pastor.name} />
+              <h1 className='text-slate-500 font-light text-3xl'>{pastor.name}</h1>
+              <h2 className='text-slate-400 -mt-1 mb-5 text-xl font-normal'>{pastor.position}</h2>
+              <div className='font-light text-md' dangerouslySetInnerHTML={{__html: pastor.autobiography}} />
+            </SectionContainer>
           </div>
         ))}
       </div>

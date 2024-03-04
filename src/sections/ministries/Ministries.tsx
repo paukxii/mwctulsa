@@ -1,5 +1,4 @@
 import SectionContainer from '../../components/SectionContainer';
-import { SectionHeader } from '../../components/SectionHeader';
 import { ministries } from '../../constants';
 import MinistryCard from './MinistryCard';
 
@@ -15,10 +14,6 @@ import 'swiper/css/pagination';
 export default function Ministries() {
   return (
     <SectionContainer bgColor='' id='ministries'>
-      {/* <SectionHeader>
-        Our <br/>
-        Ministries
-      </SectionHeader> */}
 
       <Swiper
         modules={[Autoplay, Navigation, Pagination, EffectFade]}

@@ -16,7 +16,7 @@ export default function RectangleContainer({
       <div className={`absolute inset-0 w-full object-contian h-full p-2`}>
         <img src={image} alt='' className='opacity-100' />
       </div>
-      {name.split('').map((eventName, index) => (
+      {name.split('').map((index) => (
         <div key={index} className='w-[342px]'>
           <h1 className='text-3xl text-shadow bg-transparent text-zinc-800'>
             {/* {eventName} */}
