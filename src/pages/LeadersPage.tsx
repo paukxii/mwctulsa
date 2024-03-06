@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useLocation, Link as RouterLink } from 'react-router-dom';
 import { fav_icon, pastors } from '../constants';
 import SectionContainer from '../components/SectionContainer';
-
 interface Pastor {
   id: number;
   name: string;
@@ -13,7 +12,13 @@ interface Pastor {
   autobiography: string;
 }
 
-function Tab({ pastor, isActive, onClick }: { pastor: Pastor; isActive: boolean; onClick: () => void }) {
+interface TabProps {
+  pastor: Pastor,
+  isActive: boolean,
+  onClick: () => void
+}
+
+function Tab({ pastor, isActive, onClick }: TabProps) {
   return (
     <button
       type='button'
@@ -36,9 +41,10 @@ function LeadersPage() {
   const location = useLocation();
   const isTabActive = (index: number) => activeTab === index;
 
+
   useEffect(() => {
     const tabFromQuery = new URLSearchParams(location.search).get('tab');
-    console.log(tabFromQuery);
+    // console.log(tabFromQuery);
     if (tabFromQuery) setActiveTab(parseInt(tabFromQuery, 10));
   }, [location.search]);
 
@@ -72,7 +78,8 @@ function LeadersPage() {
               <img src={pastor.image} className='hidden lg:block mb-4 h-[670px] w-full object-cover object-top drop-shadow-xl rounded-3xl' alt={pastor.name} />
               <h1 className='text-slate-500 font-light text-3xl'>{pastor.name}</h1>
               <h2 className='text-slate-400 -mt-1 mb-5 text-xl font-normal'>{pastor.position}</h2>
-              <div className='font-light text-md' dangerouslySetInnerHTML={{__html: pastor.autobiography}} />
+              <p className='font-light text-md whitespace-pre-line'> {pastor.autobiography} </p>
+              {pastor.favorite_verse && <p className='font-light text-md whitespace-pre-line'><br /><b>Favorite scriptures</b><br /> {pastor.favorite_verse}</p>} 
             </SectionContainer>
           </div>
         ))}
