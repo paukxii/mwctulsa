@@ -28,7 +28,7 @@ const TopbarContainer: React.FC<TopbarContainerProps> = ({ children }) => {
   }, []);
 
   return (
-    <div className='sticky top-0 sm:top-4 md:top-4 sm:mx-auto md:mx-auto w-full sm:w-[92%] md:w-[92%] h-24 sm:h-[70px] z-10 sm:rounded-3xl md:rounded-3xl' style={{ backgroundColor: `rgba(220, 150, 0, ${opacity})` }}>
+    <div className='sticky top-0 sm:top-4 md:top-4 sm:mx-auto md:mx-auto w-full sm:w-[92%] md:w-[92%] h-24 sm:h-[70px] z-50 sm:rounded-3xl md:rounded-3xl' style={{ backgroundColor: `rgba(220, 150, 0, ${opacity})` }}>
       {children}
     </div>
   );

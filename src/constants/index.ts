@@ -16,12 +16,12 @@ export const navbar_items = [
         name: 'home'
     },
     {
-        link: 'event',
-        name: 'stream'
-    },
-    {
         link: 'schedules',
         name: 'schedules'
+    },
+    {
+        link: 'event',
+        name: 'stream'
     },
     {
         link: 'ministers',
