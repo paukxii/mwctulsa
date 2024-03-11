@@ -337,5 +337,5 @@ export const volunteer = [
 export const mwc_info = {
     fb_link: 'https://www.facebook.com/myanmarworshipcenter',
     yt_link: 'https://www.youtube.com/@mwc-live',
-    email_link: 'myanmarworshipcenter@gmail.com'
+    email_link: 'Blessedmwc2015@gmail.com'
 }
