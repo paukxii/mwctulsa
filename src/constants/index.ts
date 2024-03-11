@@ -241,38 +241,45 @@ export const pastors = [
 export const testimonies = [
     {
         name: 'white angel',
-        message: "I've been a part of MWC church for eight years, where I found my spiritual home. From day one, I felt a profound connection with the Lord and experienced an unparalleled joy.<br><br> Within four months, I joined the worship team and grew spiritually. A year later, I felt a strong calling to serve in the Children Ministry. Despite the initial hesitation, I accepted the Lord's directive to 'feed my sheep.' I've served in both the worship and children's ministry for a total of thirteen years at MWC. This church has been instrumental in my spiritual growth, allowing me to serve the Lord with my talents and find purpose in life, bringing blessings to my family. I am forever grateful for this blessing from Myanmar Worship Center.",
-        image: '/imgs/t_whitelay.png'
+        message: "I've been a part of MWC church for eight years, where I found my spiritual home. From day one, I felt a profound connection with the Lord and experienced an unparalleled joy.<br><br> Within four months, I joined the worship team and grew spiritually. A year later, I felt a strong calling to serve in the Children Ministry. Despite the initial hesitation, I accepted the Lord's directive to 'feed my sheep.' I've served in both the worship and children's ministry for a total of seven years at MWC. This church has been instrumental in my spiritual growth, allowing me to serve the Lord with my talents and find purpose in life, bringing blessings to my family. I am forever grateful for this blessing from Myanmar Worship Center.",
+        image: '/imgs/t_whitelay.png',
+        date: '2023'
     },
     {
         name: 'Naw Maw Maw Htoo',
         message: "ကျွန်မက မိရိုးဖလာခရစ်ယာန်တစ်ယောက် ဖြစ်ပါတယ်။ အရင်ကဆို ဘုရားကျောင်းသွား သီချင်းဆို  တရားဒေသနာနားထောင် ဒီလိုဘဲ ဖြတ်သန်းလာခဲ့တယ်။ ကျွန်မ ဘုရားရဲ့ မျက်မှောက်တော်ဆိုတာ ဘာမှန်းကို သေချာမသိဘူး။ MWC အသင်းတော်မှာ ကျွန်မပါဝင်တော့ ဘုရားရဲ့ မျက်မှောက်တော်ဆိုတာ ဘာလဲ။ ဧမာနွေလဘုရားဆိုတာ ကျွန်မနဲ့ အတူရှိတဲ့ ဘုရားပါလား ဆိုတာ သိလာတယ်။ ဝိညာဉ်အတွင်းမှ ဘုရားကို ချီးမွမ်းတာ၊ ဘုရားကို ကိုးကွယ်တာ၊ ဝိညာဉ်တော်ဘုရားနဲ့ စကားပြောခြင်းတွေ အခြားသောဘာသာစကားနဲ့ ဘုရားကို ကိုးကွယ်ချီးမွမ်းတတ်ခြင်းတွေ ခံစားလာရတယ်။ အခုဆို ကျွန်မရဲ့အသက်သာမှာ ဘုရားကျောင်းသွားရင် အရင်လို ခရစ်ယာန်တစ်ယောက် ဖြစ်လို့ သွားတယ် ဆိုတာထက် ကျွန်မအတွက် ဘုရားက ဘာပြောမလဲ ကျွန်မအတွက်တစ်စုံတစ်ခု ကောင်းကြီးခံစားရမယ် ဆိုပြီး သွားခြင်း ဖြစ်ပါတယ်။ MWC အသင်းတော်မှာ ပါဝင်ခြင်းအားဖြင့် ကျွန်မရဲ့အသက်တာမှာ ဝိညာဉ်ရေးရာနဲ့ ပတ်သတ်ပြီး ကောင်းကြီးများစွာ ခံရတဲ့အပြင် ဝိညာဉ်တော်ဘုရားရဲ့ တို့ထိခြင်းတွေ စကားပြောခြင်းတွေ ခံစားရလာတယ်။ ဘုရားရဲ့ မျက်မှောက်တော်ထဲမှာ စီးမျောခြင်းတွေ ခံစားရလာတယ်။",
-        image: '/imgs/t_NawHtoo.png'
+        image: '/imgs/t_NawHtoo.png',
+        date: '2023'
     },
     {
         name: 'သင်းသင်းဦး',
         message: "MWC ဟာဘုရားသခင် ဦးဆောင်လမ်းပြနေတဲ့ အသင်းတော်ပါ။ မှန်သောဘုရားကို မှန်ကန်စွာ ကိုးကွယ်ရတဲ့ နေရာအတွက် ကျမပါ၀င်ရတာ ကျေနပ်အားရမိပါတယ်။ ကျမအတွက်အိမ် (မိသားစု) ဖြစ်တယ်။ အတူတကွ စိုက်ပျိုးတည်ဆောက်ခွင့်ရတဲ့နေရာ ဖြစ်တဲ့အတွက် အလွန်ကောင်းကြီး ဖြစ်ပါတယ်။ မျိုးဆက်သစ်တွေ ဘုရားသခင်ကို သိကျွမ်းကိုးကွယ်လာမယ့်နေရာ ဖြစ်တယ်။ ဆရာ၊ ဆရာမများနဲ့အသင်းသူ/သားအားလုံး ဘုရားသခင်ကောင်းကြီး ပေးပါစေ။",
-        image: '/imgs/t_Thin2Oo.png'
+        image: '/imgs/t_Thin2Oo.png',
+        date: '2023'
     },
     {
         name: 'Mary Seng Dashi',
         message: "ကျွန်မ Myanmar Worship Center မှာပါဝင်လာတာ ခုဆိုရင် (၇)နှစ်နီးပါးလောက်ရှိပါပြီ။ ပထမဆုံး ဒီအသင်းတော်ကို ရောက်လာတဲ့အခါမှာ ဘုရားရဲ့ အတူရှိခြင်း အထူးခံစားရသလို မိသားစုရဲ့ နွေးထွေးတဲ့ မေတ္တာကိုလဲ ခံစားရတာ ဖြစ်တယ်။ ဒီအသင်းတော်မှာပါဝင်ခြင်းအားဖြင့် ဝိညဉ်ရေးရာမှာ ကောင်းကြီး ဖြစ်သလို အသက်တာထဲမှာလဲ ကောင်းကြီးများစွာခံစားရတာဖြစ်တယ်။ အရင်နဲ့မတူသော အသက်တာထဲမှာ ဘုရားရဲ့ ပို့ဆောင်ခြင်း ခံစားရခြင်းသာမက ဒီအသင်းတော်ထဲမှာ သွန်သင်ခံရတဲ့ ကြားနာရတဲ့ နှုတ်ကပတ်တော်အားဖြင့်လဲ အတွင်းဝိညဉ်ကို သာ၍ကြီးထွားစေပါတယ်။<br><br> Myanmar Worship Centre အသင်းတော်ထဲမှာ ပို့ဆောင်ပေးတဲ့ ဘုရားသခင်ရဲ့ နာမတော်ကို အထူးချီးမွမ်းပါတယ်။ ဒီအသင်းတော်ရဲ့ မိသားစုဝင် ဖြစ်ရတာလဲ အရမ်းကို ဂုဏ်ယူဝမ်းမြောက်ပါတယ်။",
-        image: '/imgs/t_MarySeng.png'
+        image: '/imgs/t_MarySeng.png',
+        date: '2023'
     },
     {
         name: 'saw eh',
         message: "MWC အသင်းတော်မှာ ပါဝင်တာ ခုဆိုရင် ၈ နှစ်လောက်ရှိပါပြီ။ ဒီအသင်းတော်မှာ ပါဝင်ခြင်းအားဖြင့် ကျွန်တော်အသက်တာအတွက် တကယ်ကောင်းကြီး ဖြစ်ပါတယ်။ ကောင်းကြီးများစွာထဲကမှ ကျွန်တော်အသက်တာအတွက် တန်ဖိုးမဖြတ်နိုင်တဲ့ ကောင်းကြီးကတော့ သန့်ရှင်းသောဝိညာဉ်တော်ပဲ ဖြစ်ပါတယ်။<br><br> MWC အသင်းတော်မှာပါဝင်ခြင်းဖြင့် သန့်ရှင်းသောဝိညာဉ်တော် အကြောင်းကို နှုတ်ကပါတ်တော်နဲ့အညီ ရှင်းလင်းစွာ သိခွင့်ရလာတယ်။ အသက်တာအတွက် ဝိညာဉ်တော်ဟာ အရေးကြီးကြောင်း၊ ဝိညာဉ်တော်ကို အမှီပြုပြီး သွားလာတတ်ဘို့၊ ဝိညာဉ်တော်၌အကင်းပါဘို့၊ မြောက်မြားစွာ သင်ယူခွင့်တွေရရှိခဲ့ပါတယ်။<br><br> MWC အသင်းတော်မှာ ပါဝင်ခြင်းအားဖြင့် ကျွန်တော့်အသက်တာမှာ သန့်ရှင်းသောဝိညာဉ်တော်နဲ့ သိကျွမ်းခွင့်ရလာတယ်။ ဝိညာဉ်တော်ရဲ့ တို့ထိခြင်းတွေ ခံစားဖူးလာတယ်။ ဝိညာဉ်တော်ကို အမှီပြုပြီး လျှောက်လှမ်းတတ်လာတယ်။ အရာရာ အဆိုးဘက်ကိုပဲ ဦးတည်နေတဲ့လောကမှာ ဒုစရိုက်၊ အမှောင်တွေဖုံးလွမ်းနေတဲ့လောကမှာ သန့်ရှင်းသောဝိညာဉ်တော်နဲ့ သိကျွမ်းခွင့်ရခြင်းက MWC အသင်းတော်ကရတဲ့ အဖိုးမဖြတ်နိုင်တဲ့ ကောင်း​ကြီးတစ်ခုပါပဲ။",
-        image: '/imgs/t_SawEh.png'
+        image: '/imgs/t_SawEh.png',
+        date: '2023'
     },
     {
         name: 'ngam khen len baite',
         message: "Shalom! ကျွန်တော် Myanmar Worship Center မှာ ပါဝင်လာတာ ဒီနေ့နဲ့ ဆို (၇) နှစ်ရှိပါပြီ။ ပါဝင်လာခဲ့တဲ့ ဒီအချိန်အတွင်းမှာ ဝိညဉ်ရေးရာမှာ ကောင်းကြီးများစွာ ခံစားရတာဖြစ်တယ်။ ကျွန်တော် ပြောင်းလဲလာတဲ့ အသက်တာမှာ သမ္မာတရားနဲ့ ပတ်သက်ပြီး နားမလည်တဲ့ အရာ၊ မရှင်းလင်းတဲ့အရာ၊ ရှုတ်ထွေးတဲ့အရာများစွာ ရှိခဲ့သော်လည်း ကျေးဇူးတော်အားဖြင့် အသင်းတော်ခေါင်းဆောင်များရဲ့ သွန်သင်ချက်တွေအားဖြင့် ရှင်းလင်းစွာ နားလည်ရသောအခွင့် ရရှိခဲ့တာဖြစ်တယ်။ ဒါ့ကြောင့် ဘုရားသခင်ရဲ့ နာမတော် အထူးချီးမွမ်းပါတယ်။ ကျွန်တော့်အတွက် အကောင်းဆုံးသောအသင်းတော်၊ မိသားစု၊ အကောင်းဆုံးသော ပတ်ဝန်းကျင်မှာ ပို့ဆောင်ပေးတဲ့အတွက် ဘုရားသခင် နာမတော်ကို ချီးမွမ်းပါတယ်။ May God Bless you all.",
-        image: '/imgs/t_NklBaite.png'
+        image: '/imgs/t_NklBaite.png',
+        date: '2023'
     },
     {
         name: 'sa mu di than',
         message: "မင်္ဂလာပါ… ရှေ့ဦးစွာဘုရားရှင် ကျေးဇူးတော်ချီးမွမ်းပါတယ် 'Myanmar Worship Centre' အသင်းမှာ ပါဝင်တာ ၆ နှစ်ဝန်းကျင်ရှိပါပြီ။ အသင်းတော်မှာ ပါဝင်အားဖြင့် အသက်တာမှာ ချီးမွမ်းခြင်းကိုးကွယ်ခြင်းနှင့်အတူ သန့်ရှင်းသောဝိဉာဉ်တော်ရဲ့ လမ်းပြမှုကို လေးနက်စွာ ခံစားရရှိလာတယ်။ သဘောပေါက်လာတယ်။ အထူးသဖြင့် နှုတ်ကပတ်ကို ဆာငတ်လာသလို ဆုတောင်းခြင်းမှာ အားကြီးလာတဲ့ ဝိဉာဉ်ရေးရာကောင်းချီးကို အထူးခံစားရရှိလာတာ ဖြစ်တယ်။ အသင်းတော်အားဖြင့် ဘုရားရဲ့အလိုတော်နဲ့ စေခိုင်းချက်တွေကိုဝန်ခံရင်း ငြိမ်သက်ဝမ်းမြောက်ခြင်း ဆုကျေးဇူးကို ရရှိပါတယ်။ ပါဝင်ဆပ်ကပ်သော အရာများ ကုန်ခမ်းသွားခြင်းမရှိဘဲ သာ၍တိုးပွါးရသောအခွင့်ကို ရရှိတာဖြစ်တယ်။ ဘုရားရှင်ရဲ့ အလိုတော်ကြောင့် ရောက်ရှိပါဝင်နိုင်တာ ဆိုတာ အထူးယုံကြည်ပါတယ်။ အားလုံးအပေါ် ဘုရားရှင် ကောင်းချီးပေးပါစေ🙏🙏",
-        image: '/imgs/t_MuDi.png'
+        image: '/imgs/t_MuDi.png',
+        date: '2023'
     }
 ]
 
@@ -329,6 +336,6 @@ export const volunteer = [
 
 export const mwc_info = {
     fb_link: 'https://www.facebook.com/myanmarworshipcenter',
-    yt_link: 'https://www.youtube.com/@myanmarworshipcenter9530',
+    yt_link: 'https://www.youtube.com/@mwc-live',
     email_link: 'myanmarworshipcenter@gmail.com'
 }

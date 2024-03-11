@@ -2,6 +2,7 @@ interface Testimonial {
   name: string;
   image: string;
   message: string;
+  date: string;
 }
 
 interface TestimonyProp {
@@ -30,7 +31,8 @@ export default function TestimonyCard({ testimonial, index }: TestimonyProp) {
         />
         <div className='py-5 sm:py-2 px-12 sm:px-3 font-light text-md testimony' dangerouslySetInnerHTML={{ __html: testimonial.message }} />
         <hr className='w-[90%] sm:w-[85%] mx-auto'/>
-        <p className='py-2 mb-2 capitalize text-md font-medium font-sans text-slate-700'>{testimonial.name}</p>
+        <p className='pt-2 capitalize text-md font-medium font-sans text-slate-700'>{testimonial.name}</p>
+        <p className='mb-5 text-md font-thin italic font-sans text-slate-500'>Testimonial written in: {testimonial.date}</p>
       </div>
     </div>
   );
