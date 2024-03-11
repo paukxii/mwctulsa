@@ -13,7 +13,7 @@ interface Ministry {
 export default function MinistryCard({ ministry } : Ministry ) {
   return (
     <div className='relative bg-no-repeat bg-cover bg-local bg-center mx-auto text-left'>
-      <div className='px-3 pt-3 h-[420px] lg:h-[765px] mx-auto rounded-3xl bg-white'>
+      <div className='px-3 pt-3 h-[420px] lg:h-[765px] mx-auto rounded-3xl'>
           <h1 className='bg-gradient-to-r from-amber-400 to-yellow-500 bg-clip-text text-transparent text-[30px] lg:text-[50px] font-normal'>{ministry.name}</h1>
           <img src={ministry.image} className= 'w-full mb-2 rounded-2xl' alt={ministry.name} />
           <p className='font-thin w-full text-slate-600'>{ministry?.note}</p>

@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, Link as RouterLink } from 'react-router-dom';
-import { fav_icon, pastors } from '../constants';
+import { fav_icon, pastors, fb_logo } from '../constants';
 import SectionContainer from '../components/SectionContainer';
+
 interface Pastor {
   id: number;
   name: string;
@@ -10,7 +11,22 @@ interface Pastor {
   image: string;
   link: string;
   autobiography: string;
+  ph_no: string;
+  email: string;
+  fb_link: string;
 }
+
+interface SocialMediaLink {
+  href: string;
+  src: string;
+  alt: string;
+}
+
+const SocialMediaLink = ({ href, src, alt }: SocialMediaLink) => (
+  <a href={href} target='_blank'>
+    <img src={src} alt={alt} className='w-8 grayscale hover:grayscale-0 transition-all duration-1000' />
+  </a>
+);
 
 interface TabProps {
   pastor: Pastor,
@@ -59,7 +75,7 @@ function LeadersPage() {
 
   return (
     <div className='flex flex-col h-screen'>
-      <div className='fixed lg:sticky z-10 top-0 bg-slate-400 w-20 sm:w-14 mx-auto sm:mx-2 rounded-b-full drop-shadow-lg'>
+      <div className='fixed lg:sticky z-10 top-0 bg-slate-400/75 w-20 sm:w-14 mx-auto sm:mx-2 rounded-b-full drop-shadow-lg'>
         <Home_button />
       </div>
 
@@ -76,16 +92,21 @@ function LeadersPage() {
 
             <SectionContainer id=''>
               <img src={pastor.image} className='hidden lg:block mb-4 h-[670px] w-full object-cover object-top drop-shadow-xl rounded-3xl' alt={pastor.name} />
-              <h1 className='text-slate-500 font-light text-3xl'>{pastor.name}</h1>
+              <h1 className='text-slate-500 font-light text-3xl sm:text-2xl'>{pastor.name}</h1>
               <h2 className='text-slate-400 -mt-1 mb-5 text-xl font-normal'>{pastor.position}</h2>
-              <p className='font-light text-md whitespace-pre-line'> {pastor.autobiography} </p>
+              <div className='pl-2 border-l-4 border-l-indigo-200'>
+                <p>{pastor.ph_no}</p>
+                <p>{pastor.email}</p>
+                <SocialMediaLink href={pastor.fb_link} src={fb_logo} alt={pastor.fb_link} />
+              </div>
+              <p className='font-light text-md whitespace-pre-line mt-5'> {pastor.autobiography} </p>
               {pastor.favorite_verse && <p className='font-light text-md whitespace-pre-line'><br /><b>Favorite scriptures</b><br /> {pastor.favorite_verse}</p>} 
             </SectionContainer>
           </div>
         ))}
       </div>
       
-      <div className='sticky mx-auto bottom-2 sm:max-w-max md:max-w-max bg-slate-400 backdrop-blur-sm rounded-full'>
+      <div className='sticky mx-auto bottom-2 sm:max-w-max md:max-w-max bg-slate-400/25 backdrop-blur-sm rounded-full'>
         <nav className='flex justify-center' aria-label='Tabs' role='tablist'>
           {pastors.map((pastor, index) => (
             <Tab

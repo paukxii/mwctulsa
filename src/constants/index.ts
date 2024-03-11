@@ -37,6 +37,26 @@ export const navbar_items = [
     },
 ]
 
+export const visions = [
+    {
+        title: 'အသင်းတော်၏\nရည်ရွယ်ချက်',
+        line_1: '☆ ဘုရားသခင်ကို ဗဟိုပြုပြီး ဘုရားအကြံအစည်ကို မြေကြီးပေါ်တွင် ပြည့်စုံစေသော အသင်းတော်တစ်ပါးအဖြစ် ရပ်တည်ရန်။',
+        line_2: '☆ ယုံကြည်သူတိုင်း နှုတ်ကပတ်တော်နှင့်သော်လည်းကောင်း၊ ဝိညာဥ်တော်နှင့်သော်လည်းကောင်း ပြည့်ဝလျှက် ရင့်ကျတ်ခြင်းသို့ ဦးတည်ကာ ဘုရားပေးစွမ်းရည် အသီးသီးကို အသုံးပြုလျှက် ဘုရားနိုင်ငံတော် ကျယ်ပြန့်လာစေရန်။'
+    },
+    {
+        title: 'အသင်းတော်၏\nရူပါရုံ',
+        line_1: '☆ လူအ‌ပေါင်း (လူမျိုးတကာ) ကယ်တင်ခြင်းသို့ရောက်ပြီး၊ ကယ်တင်ခြင်းသို့ ရောက်ပြီးသောသူတိုင်း သမ္မာတရားအတိုင်း ကျင်လည်အသက်ရှင်လာစေရန်။',
+        line_2: '☆ အနာဂါတ်ခေါင်းဆောင်ကောင်းများ မွေးထုတ်ရန်။',
+        line_3: '☆ အသက်ရှင်သော ဆင့်ပွားအသင်းတော်များစွာ ပေါ်ပေါက်လာရန်။'
+    },
+    // {
+    //     title: 'Our\nVision',
+    //     line_1: '☆ All people to be saved, to come to knowledge of the (Devine) truth.',
+    //     line_2: '☆ To raise up Godly people and leaders.',
+    //     line_3: '☆ To establish the new worship center where the place in need.'
+    // }
+]
+
 export const our_shcedules = [
     {
         day: "Friday",
@@ -102,7 +122,7 @@ export const ministries = [
     {
         id: 1,
         name: 'ISOM Tulsa',
-        image: './imgs/DefaultIMG.jpg',
+        image: './imgs/mins/min_isom.png',
         image_rotation: '2',
         note: 'Work hard so you can present yourself to God and receive his approval. Be a good worker, one who does not need to be ashamed and who correctly explains the word of Truth.',
         verse: '2 Timothy 2:15',
@@ -111,7 +131,7 @@ export const ministries = [
     {
         id: 2,
         name: 'Evangelism',
-        image: './imgs/mins/mission.jpg',
+        image: './imgs/mins/min_mission.png',
         image_rotation: '3',
         note: '...go and make disciples...',
         verse: 'Matthew 28:19'
@@ -136,14 +156,14 @@ export const ministries = [
     {
         id: 5,
         name: 'Cell Groups',
-        image: './imgs/DefaultIMG.jpg',
+        image: './imgs/mins/DefaultIMG.jpg',
         image_rotation: '5',
         note: 'WORSHIP, WORD, PRAY, FELLOWSHIP'
     },
     {
         id: 6,
         name: 'Women Ministry',
-        image: './imgs/DefaultIMG.jpg',
+        image: './imgs/mins/DefaultIMG.jpg',
         image_rotation: '0',
         note: 'Empowering Women, Strengthening Faith.'
     }
@@ -158,9 +178,9 @@ export const pastors = [
         image: '/imgs/Leaders/SmKSMNFamily.jpg',
         autobiography: 'Pastor Khin San Maw is an ordained minister who has devoted her life to God, driven by a passion to know the Truth, to walk in Truth, and to teach the Truth. She was born in Myanmar and accepted Jesus Christ as her Savior and Lord in February 1986. Having received her calling from God, she has been serving Him for over 30 years in various capacities in ministry. In 2015, she became the founder and lead pastor of Myanmar Worship Center, USA.\n\nHer education includes a "Bachelor of Arts" degree from Yangon University and a "Diploma in Biblical Studies" from FGBTC, RBTC-Singapore (2005), and RBTC-USA (2018). She has been happily married to Do Mung for 19 blessed years, and they have three beautiful children: Glory Lun (17 years), Victoria Saan (14 years), and Josiah Kim (11 years).\n\nHer ultimate desire is to see the body of Christ working together as a mighty army of God for the great harvest by the power of the Holy Spirit.',
         page: '/RevKhinSanMaw',
-        fb_link: 'https://www.facebook.com/khinsanmaw',
+        fb_link: 'https://www.facebook.com/profile.php?id=100065687881197',
         ph_no: '918-527-9744',
-        mail: 'khinsanmaw@gmail.com',
+        email: 'khinsanmaw@gmail.com',
         link: 'senior-pastor',
         favorite_verse: 'Philippines 4:13 I can do all things through Christ who strengthens me. Romans 11:36 For of Him and through Him and to Him are all things, to whom be glory.' ,
     },
@@ -173,7 +193,7 @@ export const pastors = [
         autobiography: 'Joseph Siang is serving as an associate pastor in Myanmar Worship Center. He is responsible for the worship team and he is one of the leaders in home-fellowship.\n\nJoseph Siang was born and raised in Myanmar within christian family. Joseph’s parents, Pa Kham Cin Lian and Nu Ning Ngaih Ciin, were the first to introduce him to the essence of God’s presence at home. He became born-again christian at the age of 12 and was baptized in the Spirit soon after. Joseph studied in Evangel Bible College (EBC) and received a B.A degree in Bible-Theology in 2009. He also had received Diploma certificates from Full Gospel Bible Training Center (FGBTC) and Victory College (VC). Joseph Siang had his first ministry experience in 2009 when he led the Youth Center in Malaysia.\n\nJoseph Siang and his wife, Esther Man, live in Jenks with their three beautiful daughters.',
         fb_link: 'https://www.facebook.com/jozeph.hon',
         ph_no: '539-204-8084',
-        mail: '',
+        email: 'josephsiang@mwctulsa.org',
         link: 'associate-pastor',
         favorite_verse: '“Very truly I tell You, unless a kernel of wheat falls to the ground and dies, it remains only a single seed. But if it dies, it produces many seeds.”John 12:24 NIV'
     },
@@ -183,12 +203,12 @@ export const pastors = [
         position: 'Youth Pastor',
         thumbnail_img: '/imgs/Leaders/ministers_SayaThawSo.jpg',
         image: '/imgs/Leaders/SayaThawSo.jpg',
+        autobiography: '',
         fb_link: 'https://www.facebook.com/profile.php?id=100008000987381',
-        ph_no: '',
-        mail: '',
+        ph_no: '803-529-8626',
+        email: 'thawso100@gmail.com',
         link: 'youth-pastor',
-        favorite_verse: '',
-        autobiography: ''
+        favorite_verse: ''
     },
     {
         id: 3,
@@ -196,12 +216,12 @@ export const pastors = [
         position: 'Evangelist',
         thumbnail_img: '/imgs/Leaders/ministers_SayaSM.jpg',
         image: '/imgs/Leaders/SayaSMyatNFamily.jpg',
-        fb_link: 'https://www.facebook.com/myataye.tun',
-        ph_no: '',
-        mail: '',
-        link: 'evangelist',
         autobiography: '',
-        favorite_verse: ''
+        fb_link: 'https://www.facebook.com/myataye.tun',
+        ph_no: '918-951-2213',
+        email: '',
+        link: 'evangelist',
+        favorite_verse: '"Go therefore and Make Disciples of all nations..." -Matthew 28:19'
     },
     {
         id: 4,
@@ -209,14 +229,13 @@ export const pastors = [
         position: 'Helping Minister',
         thumbnail_img: '/imgs/Leaders/ministers_SayaKoNge.jpg',
         image: '/imgs/Leaders/SayaBMangNFamily.jpg',
+        autobiography: '',
         fb_link: 'https://www.facebook.com/atoo.htoo',
         ph_no: '918-568-3687',
-        mail: '',
+        email: 'atoo.htoo@gmail.com',
         link: 'helping-minister',
-        autobiography: '',
         favorite_verse: ''
     },
-
 ]
 
 export const testimonies = [

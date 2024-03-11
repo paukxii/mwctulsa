@@ -13,7 +13,7 @@ export default function TestimonyCard({ testimonial, index }: TestimonyProp) {
   const cardClasses = `
     relative
     border-4 border-white 
-    bg-gradient-to-b from-zinc-100 to-neutral-100 
+    bg-gradient-to-r from-blue-100 to-cyan-100 
     rounded-[75px] rounded-tl-[180px] rounded-br-[120px] 
     w-full xl:h-auto 
     text-center 

@@ -3,6 +3,7 @@ import EventSection from '../sections/live/EventSection';
 import Ministers from '../sections/leaders/Leaders';
 import Ministries from '../sections/ministries/Ministries';
 import Schedules from '../sections/shedules/Schedules';
+import Visions from '../sections/visions/Visions';
 import TestimonySection from '../sections/testimony/TestimonySection';
 import Offering from '../sections/offering/Offering';
 import Event_slider from '../sections/upcoming/Event_slider';
@@ -18,8 +19,9 @@ export default function MainPage() {
       <div className='hidden'>
         <Event_slider />
       </div>
-      <EventSection />
       <Schedules />
+      <EventSection />
+      <Visions />
       <Ministers />
       <Ministries />
       <Volunteer/>

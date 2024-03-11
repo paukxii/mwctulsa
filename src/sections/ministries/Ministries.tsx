@@ -18,6 +18,7 @@ export default function Ministries() {
       <Swiper
         modules={[Autoplay, Navigation, Pagination, EffectFade]}
         effect={'fade'}
+        fadeEffect={{crossFade: true}}
         loop={true}
         spaceBetween={6}
         speed={1000}

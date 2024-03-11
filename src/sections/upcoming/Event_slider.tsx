@@ -18,10 +18,10 @@ const event_slider = () => {
         centeredSlides={true}
         parallax={true}
         navigation={false}
-        pagination={true}
+        pagination={false}
         scrollbar={{draggable: true}}
-        autoplay={{delay: 50000, disableOnInteraction: false}}
-        // spee d={100}
+        autoplay={{delay: 10000, disableOnInteraction: false}}
+        // speed={100}
       >
         {upcoming_events.map((event,index) => (
             <SwiperSlide key={index} className=''>
