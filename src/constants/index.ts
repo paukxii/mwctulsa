@@ -219,7 +219,7 @@ export const pastors = [
         autobiography: '',
         fb_link: 'https://www.facebook.com/myataye.tun',
         ph_no: '918-951-2213',
-        email: '',
+        email: 'name@gmail.com',
         link: 'evangelist',
         favorite_verse: '"Go therefore and Make Disciples of all nations..." -Matthew 28:19'
     },

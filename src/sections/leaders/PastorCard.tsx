@@ -2,15 +2,16 @@ import { Link as RouterLink } from 'react-router-dom';
 
 interface Pastor {
   pastor: {
-    id: number;
-    name: string;
-    position: string;
-    thumbnail_img: string;
-    image: string;
-    fb_link: string;
-    ph_no: string;
-    mail: string;
-    link: string;
+  id: number;
+  name: string;
+  position: string;
+  thumbnail_img: string;
+  image: string;
+  link: string;
+  autobiography: string;
+  ph_no: string;
+  email: string;
+  fb_link: string;
   };
 }
 
