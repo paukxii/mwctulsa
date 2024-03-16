@@ -107,13 +107,13 @@ export const our_shcedules = [
 
 export const upcoming_events = [
     {
-        name: 'Weekly Bible Study',
-        image: '/imgs/events/KidCamp.png',
+        name: 'Welcome',
+        image: '/imgs/Weekly1.png',
     },
     {
-        name: 'Weekly Bible Study',
-        image: '/imgs/events/GospelConcert.png',
-    }
+        name: 'Weekly',
+        image: '/imgs/Weekly2.png',
+    },
 ]
 
 export const ministries_moto = "Proclaiming the Gospel, Equipping the Saints, Raising up the Leaders, Planting the living Churches"

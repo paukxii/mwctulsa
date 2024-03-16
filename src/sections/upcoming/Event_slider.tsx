@@ -1,7 +1,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
-import { Autoplay, Navigation, Pagination, Scrollbar, Parallax, EffectCoverflow } from 'swiper/modules';
+import { Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css/effect-fade';
 
 import { upcoming_events } from '../../constants';
@@ -9,19 +9,14 @@ import { upcoming_events } from '../../constants';
 const event_slider = () => {
 
   return (
-      <Swiper className='w-[500px] sm:w-full'
-        modules={[Autoplay, Navigation, Pagination, Scrollbar, Parallax, EffectCoverflow]}
-        // effect={'coverflow'}
-        spaceBetween={0}
-        slidesPerView={1}
+      <Swiper className=''
+        modules={[Autoplay, EffectFade]}
+        effect={'fade'}
+        fadeEffect={{crossFade: true}}
         loop={true}
         centeredSlides={true}
-        parallax={true}
-        navigation={false}
-        pagination={false}
-        scrollbar={{draggable: true}}
         autoplay={{delay: 10000, disableOnInteraction: false}}
-        // speed={100}
+        speed={1000}
       >
         {upcoming_events.map((event,index) => (
             <SwiperSlide key={index} className=''>

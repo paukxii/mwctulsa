@@ -75,7 +75,7 @@ function LeadersPage() {
 
   return (
     <div className='flex flex-col h-screen'>
-      <div className='fixed lg:sticky z-10 top-0 bg-slate-400/75 w-20 sm:w-14 mx-auto sm:mx-2 rounded-b-full drop-shadow-lg'>
+      <div className='fixed lg:sticky z-10 top-0 bg-slate-400 w-20 sm:w-14 mx-auto sm:mx-2 rounded-b-full drop-shadow-lg'>
         <Home_button />
       </div>
 

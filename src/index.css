@@ -12,6 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  background: rgb(238,255,250);
+  background: -moz-linear-gradient(0deg, rgba(238,255,250,1) 0%, rgba(255,252,245,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(238,255,250,1) 0%, rgba(255,252,245,1) 100%);
+  background: linear-gradient(0deg, rgba(238,255,250,1) 0%, rgba(255,252,245,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eefffa",endColorstr="#fffcf5",GradientType=1);
 }
 
 button {

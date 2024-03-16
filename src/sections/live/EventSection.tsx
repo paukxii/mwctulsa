@@ -24,7 +24,7 @@ export default function EventSection() {
   // }, []);
 
   return (
-    <SectionContainer id='event' bgColor='bg-white'>
+    <SectionContainer id='event' bgColor=''>
       <SectionHeader>
         Live/Recent<br />
         Stream
