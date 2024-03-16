@@ -17,7 +17,7 @@ export default function Schedules() {
           <ul className='flex justify-end gap-10 sm:gap-1 md:gap-2'>
             {our_shcedules.map((schedules, index) => (
               <div className='flex mb-0' key={index}>
-                <div className='sm:hidden md:hidden h-full mx-4 w-1 bg-cyan-500 rounded-full rotate-6'/>
+                <div className='sm:hidden h-full mx-4 w-1 bg-cyan-500 rounded-full rotate-6'/>
                   <div
                     key={index}
                     className='flex flex-col max-w-max whitespace-nowrap px-2'
