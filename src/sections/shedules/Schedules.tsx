@@ -8,12 +8,12 @@ export default function Schedules() {
       id='schedules'
       bgColor='bg-gradient-to-r from-blue-100 to-cyan-100'
     >
-      <div className='flex flex-col w-full lg:flex-row md:flex-row justify-between'>
+      <div className='flex flex-col w-full lg:flex-row md:flex-row justify-between '>
         <SectionHeader>
           Weekly <br/>
           Schedules
         </SectionHeader>
-        <div className='flex justify-between items-center '>
+        <div className='flex justify-between items-center'>
           <ul className='flex justify-end gap-10 sm:gap-1 md:gap-2'>
             {our_shcedules.map((schedules, index) => (
               <div className='flex mb-0' key={index}>
