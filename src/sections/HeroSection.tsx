@@ -13,7 +13,7 @@ export default function HeroSection() {
             <h1 className='text-white text-5xl md:text-[80px] leading-none text-shadow'> Welcome to <br/> MWC </h1>
             <p className='text-xl md:text-3xl text-white text-shadow'>မြန်မာတို့ စုဝေးကိုးကွယ်ရာနေရာမှ<br/>ကြိုဆိုပါ၏။</p>
           </div>
-         <div className='absolute bottom-5 sm:bottom-16 sm:w-full lg:w-[65%]'>
+         <div className='absolute bottom-5 sm:bottom-12 sm:w-full lg:w-[80%]'>
               <Event_slider />
           </div>
         </div>

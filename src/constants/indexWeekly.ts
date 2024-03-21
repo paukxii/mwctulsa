@@ -49,10 +49,10 @@ export const our_shcedules = [
 export const upcoming_events = [
     {
         name: 'Welcome',
-        image: '/imgs/Weekly1.png',
+        image: '/imgs/Welcome.png',
     },
     {
         name: 'Weekly',
-        image: '/imgs/Weekly2.png',
+        image: '/imgs/Weekly.png',
     },
 ]
