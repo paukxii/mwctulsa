@@ -15,7 +15,7 @@ export default function TestimonyCard({ testimonial, index }: TestimonyProp) {
     relative
     border-4 border-white 
     bg-gradient-to-r from-blue-100 to-cyan-100 
-    rounded-[75px] rounded-tl-[180px] rounded-br-[120px] 
+    rounded-[75px] rounded-tl-[130px] rounded-br-[120px] 
     w-full xl:h-auto 
     text-center 
     mx-auto`

@@ -14,28 +14,32 @@ export default function TestimonySection() {
   
   return (
     <SectionContainer id='testimony' bgColor=''>
-      {/* <SectionHeader>
-        Testimonial
-      </SectionHeader> */}
-
       <Swiper
-      modules={[Autoplay, Navigation, Pagination, Scrollbar]}
-      spaceBetween={0}
-      slidesPerView={1}
-      loop={true}
-      centeredSlides={true}
-      // navigation
-      pagination={false}
-      speed={1000}
-      autoplay={{delay: 10000, disableOnInteraction: false}}
-      >
+        modules={[Autoplay, Navigation, Pagination, Scrollbar]}
+        spaceBetween={0}
+        loop={true}
+        centeredSlides={false}
+        slidesPerView={1}
+        breakpoints={{
+          743: {
+            slidesPerView: 1,
+          },
+          1136: {
+            slidesPerView: 1.2,
+          },
+        }}
+        // navigation
+        pagination={false}
+        speed={1000}
+        autoplay={{delay: 10000, disableOnInteraction: false}}
+        >
 
-      {testimonies.map((testimony, index) => (
-          <SwiperSlide key={index}>
-            <TestimonyCard key={index} testimonial={testimony} index={index.toString()}/>
-          </SwiperSlide>
-        ))}
+        {testimonies.map((testimony, index) => (
+            <SwiperSlide key={index}>
+              <TestimonyCard key={index} testimonial={testimony} index={index.toString()}/>
+            </SwiperSlide>
+          ))}
       </Swiper>
-      </SectionContainer>
+    </SectionContainer>
   )
 }

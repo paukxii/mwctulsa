@@ -19,9 +19,6 @@ export default {
       }),
 
       colors: {
-        'mwc-nav-orange': '#f09300',
-        'mwc-gold': '#a76600',
-        'mwc-red': '#d30000',
       },
 
       screens: {

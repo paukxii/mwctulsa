@@ -12,7 +12,7 @@ const event_slider = () => {
   return (
     <SectionContainer
       id='visions'
-      bgColor='bg-gradient-to-b from-blue-100 to-cyan-100'
+      bgColor='bg-gradient-to-br from-sky-800 to-indigo-900 sm:w-[90%] sm:mx-auto sm:rounded-[30px]'
       >
       <Swiper className='w-full overflow-hidden'
         modules={[Autoplay, Navigation, Pagination, Scrollbar, Parallax, EffectFade]}
@@ -25,8 +25,8 @@ const event_slider = () => {
           {visions.map((visions,index) => (
               <SwiperSlide key={index} className=''>
                 <div className='lg:flex lg:flex-col-2 lg:w-[80%] mx-auto whitespace-pre-line'>
-                  <p className='sm:ml-10 md:ml-10 min-w-60 lg:py-7 text-3xl font-black leading-relaxed sm:my-5 md:my-5 bg-gradient-to-b from-orange-600 to-red-500 bg-clip-text text-transparent'>{visions.title}</p>
-                  <div className='sm:ml-10 md:ml-10 max-w-max text-lg font-semibold leading-relaxed -indent-6 sm:-indent-6 text-slate-600'>
+                  <p className='sm:ml-10 md:ml-10 min-w-60 lg:py-7 text-3xl font-black leading-relaxed sm:my-5 md:my-5 bg-gradient-to-b from-orange-200 to-red-200 bg-clip-text text-transparent'>{visions.title}</p>
+                  <div className='sm:ml-10 md:ml-10 max-w-max text-lg font-semibold leading-relaxed -indent-6 sm:-indent-6 text-slate-200'>
                     <p className='mb-2'>{visions.line_1}</p>
                     <p className='mb-2'>{visions.line_2}</p>
                     <p className='sm:mb-6'>{visions.line_3}</p>
