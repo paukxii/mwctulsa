@@ -52,6 +52,10 @@ export const upcoming_events = [
         image: '/imgs/weekly//Welcome.png',
     },
     {
+        name: 'Brand New Thing 2024',
+        image: '/imgs/weekly//Year_Motto.jpg',
+    },
+    {
         name: 'Weekly',
         image: '/imgs/weekly/Weekly.png',
     },
