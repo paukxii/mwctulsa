@@ -32,8 +32,8 @@ export default function PastorCard({ pastor }: Pastor) {
               className={`${imageClass} max-w-min rounded-full hover:scale-105 transition duration-300 ease-in-out`}
             />
           </div>
-          <h1 className=' font-normal text-lg'>{pastor.name}</h1>
-          <h1 className='text-[#053c8e] font-light'>{pastor.position}</h1>
+          <h1 className=' font-medium text-lg'>{pastor.name}</h1>
+          <h2 className='text-blue-900 font-light text-md'>{pastor.position}</h2>
         </RouterLink>
       </div>
     </div>

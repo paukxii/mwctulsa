@@ -19,12 +19,13 @@ const event_slider = () => {
         speed={1000}
       >
         {upcoming_events.map((event,index) => (
-            <SwiperSlide key={index} className=''>
+            <SwiperSlide key={index} className='mb-5 sm:mb-3'>
               <div className=''>
-                <img src={event.image} alt={event.name} className='' />
+                <img src={event.image} alt={event.name} className='align-bottom rounded-2xl' />
               </div>
             </SwiperSlide>
         ))}
+        <img className='' src='/imgs/weekly/WeeklyTable.png' />
       </Swiper>
   )
 }
