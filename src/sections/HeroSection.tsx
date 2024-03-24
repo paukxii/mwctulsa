@@ -7,13 +7,9 @@ export default function HeroSection() {
       id='hero'
       bgImage='bg-hero w-full'
       hero={true} >
-     <div className='relative w-full'>
-        <div className='grid grid-cols-1 h-screen w-full place-items-center sm:h-[750px] text-center'>
-          <div className='text-center hidden'>
-            <h1 className='text-white text-5xl md:text-[80px] leading-none text-shadow'> Welcome to <br/> MWC </h1>
-            <p className='text-xl md:text-3xl text-white text-shadow'>မြန်မာတို့ စုဝေးကိုးကွယ်ရာနေရာမှ<br/>ကြိုဆိုပါ၏။</p>
-          </div>
-          <div className='absolute bottom-5 sm:bottom-11 md:bottom-20 w-full lg:w-[82%]'>
+     <div className='relative w-full sm:h-[44rem]'>
+        <div className='grid grid-cols-1 h-screen w-full place-items-center sm:h-[20rem] text-center'>
+          <div className='absolute bottom-5 sm:bottom-0 md:bottom-20 w-full lg:w-[82%]'>
               <Event_slider />
           </div>
         </div>
