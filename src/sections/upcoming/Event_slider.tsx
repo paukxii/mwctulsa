@@ -13,19 +13,21 @@ const event_slider = () => {
         modules={[Autoplay, EffectFade]}
         effect={'fade'}
         fadeEffect={{crossFade: true}}
+        spaceBetween={1}
         loop={true}
         centeredSlides={true}
-        autoplay={{delay: 10000, disableOnInteraction: false}}
+        autoplay={{delay: 5000, disableOnInteraction: false}}
         speed={1000}
+        
       >
         {upcoming_events.map((event,index) => (
-            <SwiperSlide key={index} className='mb-5 sm:mb-3'>
+            <SwiperSlide key={index} className='mb-2 sm:mb-2'>
               <div className=''>
                 <img src={event.image} alt={event.name} className='align-bottom rounded-3xl sm:rounded-2xl' />
               </div>
             </SwiperSlide>
         ))}
-        <img className='rounded-3xl sm:rounded-xl backdrop-blur-md bg-gradient-to-br from-sky-800 to-indigo-900' src='/imgs/weekly/WeeklyTable.png' />
+        <img className=' lg:hidden rounded-3xl sm:rounded-2xl backdrop-blur-md bg-gradient-to-br from-sky-800/75 to-indigo-900/75' src='/imgs/weekly/WeeklyTable.png' />
       </Swiper>
   )
 }
