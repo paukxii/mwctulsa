@@ -13,7 +13,7 @@ const event_slider = () => {
         modules={[Autoplay, EffectFade]}
         effect={'fade'}
         fadeEffect={{crossFade: true}}
-        spaceBetween={1}
+        spaceBetween={2}
         loop={true}
         centeredSlides={true}
         autoplay={{delay: 5000, disableOnInteraction: false}}

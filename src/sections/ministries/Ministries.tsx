@@ -21,10 +21,10 @@ export default function Ministries() {
         fadeEffect={{crossFade: true}}
         loop={true}
         spaceBetween={6}
-        speed={1000}
         slidesPerView={1}
         pagination={{clickable:true}}
         autoplay={{delay: 5000, disableOnInteraction: false}}
+        speed={1000}
       >
 
       {ministries.map((ministry, index) => (
