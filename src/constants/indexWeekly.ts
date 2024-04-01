@@ -55,10 +55,10 @@ export const upcoming_events = [
         name: 'Brand New Thing 2024',
         image: '/imgs/weekly//Year_Motto.jpg',
     },
-    {
-        name: 'Weekly',
-        image: '/imgs/weekly/Weekly.jpg',
-    },
+    // {
+    //     name: 'Weekly',
+    //     image: '/imgs/weekly/Weekly.jpg',
+    // },
     {
         name: 'Weekly',
         image: '/imgs/weekly/Weekly_Fri_uTalk.jpg',

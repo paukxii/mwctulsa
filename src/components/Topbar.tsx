@@ -62,7 +62,7 @@ const Topbar: React.FC = () => {
           <ChurchLogo />
           <ul className='sticky top-0 flex items-end h-full gap-5'>
             {navbar_items.map((item, index) => (
-              <li key={index} className='hidden lg:flex items-end gap-5 h-full text-orange-200'>
+              <li key={index} className='hidden lg:flex items-end gap-5 h-full text-indigo-500'>
                 <Link
                   activeClass='navbar-active'
                   to={item.link}
@@ -78,7 +78,7 @@ const Topbar: React.FC = () => {
               </li>
             ))}
           </ul>
-          <div className='w-8 -mr-4 font-medium text-white lg:hidden' onClick={() => setisMobileMenuOpen((prev) => !prev)}>
+          <div className='w-8 -mr-4 font-semibold text-red lg:hidden' onClick={() => setisMobileMenuOpen((prev) => !prev)}>
             {isMobileMenuOpen ? <XMarkIcon /> : <HamburgerIcon />}
           </div>
         </TopBarWrapper>
