@@ -99,7 +99,7 @@ export const ministries = [
     {
         id: 5,
         name: 'Cell Groups',
-        image: './imgs/mins/DefaultIMG.jpg',
+        image: './imgs/mins/min_cell.png',
         image_rotation: '5',
         note: 'WORSHIP, WORD, PRAY, FELLOWSHIP'
     },
