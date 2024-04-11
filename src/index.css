@@ -51,13 +51,13 @@ button:focus-visible {
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
-.testimony::before {
+/* .testimony::before {
   content: '\201C';
   font-size: 4rem;
   line-height: 0px;
   vertical-align: bottom;
-  color: white;
-}
+  color:cadetblue;
+} */
 
 /* .testimony::after {
   content: close-quote;

@@ -27,7 +27,6 @@ const event_slider = () => {
               </div>
             </SwiperSlide>
         ))}
-        {/* <img className=' lg:hidden rounded-3xl sm:rounded-2xl backdrop-blur-md bg-gradient-to-br from-sky-800/75 to-indigo-900/75' src='/imgs/weekly/WeeklyTable.png' /> */}
       </Swiper>
   )
 }

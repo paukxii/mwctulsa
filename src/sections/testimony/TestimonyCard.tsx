@@ -1,3 +1,5 @@
+// Import necessary libraries or components
+
 interface Testimonial {
   name: string;
   image: string;
@@ -11,28 +13,20 @@ interface TestimonyProp {
 }
 
 export default function TestimonyCard({ testimonial, index }: TestimonyProp) {
-  const cardClasses = `
-    relative
-    border-4 border-white 
-    bg-gradient-to-r from-blue-100 to-cyan-100 
-    rounded-[75px] rounded-tl-[130px] rounded-br-[120px] 
-    w-full xl:h-auto 
-    text-center 
-    mx-auto`
-  ;
-
   return (
-    <div className='min-w-full xl:min-w-min'>
-      <div id={index} className={cardClasses}>
+    <div className='min-w-min lg:min-w-min m-2'>
+      <div id={index} className='relative flex flex-col w-full lg:h-auto text-left'>
         <img
           src={testimonial.image}
-          alt=''
-          className='w-24 mx-auto rounded-full border-4 border-white mt-5 drop-shadow-md'
+          alt={testimonial.name}
+          className='w-32 mx-auto mt-5 rounded-full border-4 border-gray-100 drop-shadow-lg'
         />
-        <div className='py-5 sm:py-2 px-12 sm:px-3 font-light text-md testimony' dangerouslySetInnerHTML={{ __html: testimonial.message }} />
-        <hr className='w-[90%] sm:w-[85%] mx-auto'/>
-        <p className='pt-2 capitalize text-md font-medium font-sans text-slate-700'>{testimonial.name}</p>
-        <p className='mb-5 text-md font-thin italic font-sans text-slate-500'>Testimonial written in: {testimonial.date}</p>
+        <div>
+          <div className='py-5 sm:py-2 font-light text-md testimony whitespace-pre-line'>{testimonial.message}</div>
+          <hr className='w-full'/>
+          <p className='pt-2 capitalize text-md font-medium font-sans text-slate-700'>{testimonial.name}</p>
+          <p className='mb-5 text-md font-thin italic font-sans text-slate-500'>Testimonial written in: {testimonial.date}</p>
+        </div>
       </div>
     </div>
   );

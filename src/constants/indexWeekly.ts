@@ -57,7 +57,7 @@ export const upcoming_events = [
     },
     {
         name: 'Weekly',
-        image: '/imgs/weekly/Weekly4-7-24.jpg',
+        image: '/imgs/weekly/Weekly4-14-24.jpg',
     },
     {
         name: 'Weekly',

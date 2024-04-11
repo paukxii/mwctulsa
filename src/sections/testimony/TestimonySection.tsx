@@ -16,7 +16,7 @@ export default function TestimonySection() {
     <SectionContainer id='testimony' bgColor=''>
       <Swiper
         modules={[Autoplay, Navigation, Pagination, Scrollbar]}
-        spaceBetween={0}
+        spaceBetween={5}
         loop={true}
         centeredSlides={false}
         slidesPerView={1}
@@ -25,13 +25,13 @@ export default function TestimonySection() {
             slidesPerView: 1,
           },
           1136: {
-            slidesPerView: 1.2,
+            slidesPerView: 3,
           },
         }}
         // navigation
         pagination={false}
         speed={1000}
-        autoplay={{delay: 10000, disableOnInteraction: false}}
+        autoplay={{delay: 20000, disableOnInteraction: true}}
         >
 
         {testimonies.map((testimony, index) => (
