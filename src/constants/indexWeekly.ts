@@ -48,16 +48,16 @@ export const our_shcedules = [
 
 export const upcoming_events = [
     {
+        name: 'Weekly',
+        image: '/imgs/weekly/Weekly4-21-24.jpg',
+    },
+    {
         name: 'Welcome',
         image: '/imgs/weekly//Welcome.png',
     },
     {
         name: 'Brand New Thing 2024',
         image: '/imgs/weekly//Year_Motto.jpg',
-    },
-    {
-        name: 'Weekly',
-        image: '/imgs/weekly/Weekly4-14-24.jpg',
     },
     {
         name: 'Weekly',
