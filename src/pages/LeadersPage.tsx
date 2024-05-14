@@ -9,6 +9,7 @@ interface Pastor {
   position: string;
   thumbnail_img: string;
   image: string;
+  photo_description: string;
   link: string;
   autobiography: string;
   ph_no: string;
@@ -92,6 +93,7 @@ function LeadersPage() {
 
             <SectionContainer id=''>
               <img src={pastor.image} className='hidden lg:block mb-4 h-[670px] w-full object-cover object-top drop-shadow-xl rounded-3xl' alt={pastor.name} />
+              <p className=' font-thin text-sm text-right -mt-4 text-gray-400'>{pastor.photo_description}</p>
               <h1 className='text-slate-500 font-light text-3xl sm:text-2xl'>{pastor.name}</h1>
               <h2 className='text-slate-400 -mt-1 mb-5 text-xl font-normal'>{pastor.position}</h2>
               <div className='pl-2 border-l-4 border-l-indigo-200'>

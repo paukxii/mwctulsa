@@ -106,7 +106,7 @@ export const ministries = [
     {
         id: 6,
         name: 'Women Ministry',
-        image: './imgs/mins/DefaultIMG.jpg',
+        image: './imgs/mins/min_wmen.png',
         image_rotation: '0',
         note: 'Empowering Women, Strengthening Faith.'
     }
@@ -119,6 +119,7 @@ export const pastors = [
         position: 'Lead Pastor',
         thumbnail_img: '/imgs/Leaders/SmKSM&Mung.jpg',
         image: '/imgs/Leaders/SmKSMNFamily.jpg',
+        photo_description: "Family photo taken on Mother's day 2024",
         autobiography: 'Pastor Khin San Maw is an ordained minister who has devoted her life to God, driven by a passion to know the Truth, to walk in Truth, and to teach the Truth. She was born in Myanmar and accepted Jesus Christ as her Savior and Lord in February 1986. Having received her calling from God, she has been serving Him for over 30 years in various capacities in ministry. In 2015, she became the founder and lead pastor of Myanmar Worship Center, USA.\n\nHer education includes a "Bachelor of Arts" degree from Yangon University and a "Diploma in Biblical Studies" from FGBTC, RBTC-Singapore (2005), and RBTC-USA (2018). She has been happily married to Do Mung for 19 blessed years, and they have three beautiful children: Glory Lun (17 years), Victoria Saan (14 years), and Josiah Kim (11 years).\n\nHer ultimate desire is to see the body of Christ working together as a mighty army of God for the great harvest by the power of the Holy Spirit.',
         page: '/RevKhinSanMaw',
         fb_link: 'https://www.facebook.com/profile.php?id=100065687881197',
@@ -133,6 +134,7 @@ export const pastors = [
         position: 'Associate Pastor',
         thumbnail_img: '/imgs/Leaders/SayaHon&Esther.jpg',
         image: '/imgs/Leaders/SayaHonNFamily.jpg',
+        photo_description: "Family photo taken on Mother's day 2024",
         autobiography: 'Joseph Siang is serving as an associate pastor in Myanmar Worship Center. He is responsible for the worship team and he is one of the leaders in home-fellowship.\n\nJoseph Siang was born and raised in Myanmar within christian family. Joseph’s parents, Pa Kham Cin Lian and Nu Ning Ngaih Ciin, were the first to introduce him to the essence of God’s presence at home. He became born-again christian at the age of 12 and was baptized in the Spirit soon after. Joseph studied in Evangel Bible College (EBC) and received a B.A degree in Bible-Theology in 2009. He also had received Diploma certificates from Full Gospel Bible Training Center (FGBTC) and Victory College (VC). Joseph Siang had his first ministry experience in 2009 when he led the Youth Center in Malaysia.\n\nJoseph Siang and his wife, Esther Man, live in Jenks with their three beautiful daughters.',
         fb_link: 'https://www.facebook.com/jozeph.hon',
         ph_no: '539-204-8084',
@@ -146,6 +148,7 @@ export const pastors = [
         position: 'Youth Pastor',
         thumbnail_img: '/imgs/Leaders/ministers_SayaThawSo.jpg',
         image: '/imgs/Leaders/SayaThawSo.jpg',
+        photo_description: "Photo on MWC Church's 9th Birthday",
         autobiography: '',
         fb_link: 'https://www.facebook.com/profile.php?id=100008000987381',
         ph_no: '803-529-8626',
@@ -159,10 +162,11 @@ export const pastors = [
         position: 'Evangelist',
         thumbnail_img: '/imgs/Leaders/ministers_SayaSM.jpg',
         image: '/imgs/Leaders/SayaSMyatNFamily.jpg',
+        photo_description: "Family photo",
         autobiography: '',
         fb_link: 'https://www.facebook.com/myataye.tun',
         ph_no: '918-951-2213',
-        email: 'name@gmail.com',
+        email: 'name@mail.com',
         link: 'evangelist',
         favorite_verse: '"Go therefore and Make Disciples of all nations..." -Matthew 28:19'
     },
@@ -172,6 +176,7 @@ export const pastors = [
         position: 'Helping Minister',
         thumbnail_img: '/imgs/Leaders/ministers_SayaKoNge.jpg',
         image: '/imgs/Leaders/SayaBMangNFamily.jpg',
+        photo_description: "Family photo taken on MWC's 8th Birthday 2023",
         autobiography: '',
         fb_link: 'https://www.facebook.com/atoo.htoo',
         ph_no: '918-568-3687',
