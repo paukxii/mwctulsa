@@ -162,7 +162,7 @@ export const pastors = [
         position: 'Evangelist',
         thumbnail_img: '/imgs/Leaders/ministers_SayaSM.jpg',
         image: '/imgs/Leaders/SayaSMyatNFamily.jpg',
-        photo_description: "Family photo",
+        photo_description: "Family photo taken on 2022",
         autobiography: '',
         fb_link: 'https://www.facebook.com/myataye.tun',
         ph_no: '918-951-2213',
