@@ -35,7 +35,6 @@ const event_slider = () => {
               </SwiperSlide>
         ))}
       </Swiper>
-      <img src='../imgs/visionBG.png' className=' absolute h-full bg-local z-10 top-0 left-0 hidden lg:block' />
     </SectionContainer>
   )
 }

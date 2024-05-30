@@ -19,7 +19,7 @@ export default function Schedules() {
               <div className='flex' key={index}>
                 <div
                   key={index}
-                  className='flex flex-col lg:w-40 whitespace-nowrap lg:pl-3 sm:pl-2 rounded-xl bg-gradient-to-r from-slate-50/50 to-slate-200/5 hover:shadow-xl transition-all duration-1000'
+                  className='flex flex-col lg:w-52 whitespace-nowrap lg:pl-3 sm:pl-2 rounded-xl bg-gradient-to-r from-slate-50/50 to-slate-200/5 hover:shadow-xl transition-all duration-1000'
                 >
                   <h2 className='text-cyan-600 font-thin text-2xl lg:text-3xl'>{schedules.day}</h2>
                   {schedules.program.map((p) => (

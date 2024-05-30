@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 
 export default function Volunteer() {
   return (
-    <div id='volunteer'>
+    <div id='volunteer' className=''>
       {/* <SectionHeader>
          Volunteer
        </SectionHeader> */}
@@ -30,7 +30,7 @@ export default function Volunteer() {
         {volunteer.map((volunteerItem) => (
           <SwiperSlide key={volunteerItem.image} className=''>
             <div className=''>
-              <img src={volunteerItem.image} alt={''} className='w-32 sm:w-28 rounded-full grayscale hover:grayscale-0 transition-all duration-1000' />
+              <img src={volunteerItem.image} alt={''} className=' w-40 sm:w-28 rounded-full grayscale hover:grayscale-0 transition-all duration-1000' />
             </div>
           </SwiperSlide>
         ))}

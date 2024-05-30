@@ -19,8 +19,7 @@ export default function TestimonyCard({ testimonial, index }: TestimonyProp) {
         <img
           src={testimonial.image}
           alt={testimonial.name}
-          className='w-32 mx-auto mt-5 rounded-full border-4 border-gray-100 drop-shadow-lg'
-        />
+          className='w-32 mx-auto mt-5 rounded-full border-4 border-gray-100 drop-shadow-lg' />
         <div>
           <div className='py-5 sm:py-2 font-light text-md testimony whitespace-pre-line'>{testimonial.message}</div>
           <hr className='w-full'/>
