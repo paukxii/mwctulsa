@@ -22,7 +22,7 @@ const event_slider = () => {
       {upcoming_events.map((event,index) => (
           <SwiperSlide key={index} className=''>
             <div className='flex items-end h-[22rem] sm:h-[9rem]'>
-              <img src={event.image} alt={event.name} className='rounded-3xl sm:rounded-2xl bg-gradient-to-b from-sky-800/50 to-indigo-900/50' />
+              <img src={event.image} alt={event.name} className='' />
             </div>
           </SwiperSlide>
       ))}
