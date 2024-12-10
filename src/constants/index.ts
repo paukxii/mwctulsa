@@ -130,7 +130,7 @@ export const pastors = [
     },
     {
         id: 1,
-        name: 'Pr. Joseph Siang',
+        name: 'Pastor Joseph Siang',
         position: 'Associate Pastor',
         thumbnail_img: '/imgs/Leaders/SayaHon&Esther.jpg',
         image: '/imgs/Leaders/SayaHonNFamily.jpg',
@@ -144,7 +144,7 @@ export const pastors = [
     },
     {
         id: 2,
-        name: 'Saya Thaw So',
+        name: 'Pastor Thaw So',
         position: 'Youth Pastor',
         thumbnail_img: '/imgs/Leaders/ministers_SayaThawSo.jpg',
         image: '/imgs/Leaders/SayaThawSo.jpg',
