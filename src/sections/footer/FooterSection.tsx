@@ -44,7 +44,7 @@ export default function FooterSection() {
             <SocialMediaLink href={mwc_info.yt_link} src={yt_logo} alt='mwc youtube' />
           <div className='h-1 flex-1 bg-gray-600 rounded-full ' />
         </div>
-        <h1 className='text-white text-lg font-light'>&copy; 2024 Myanmar Worship Center</h1>
+        <h1 className='text-white text-lg font-light'>&copy; 2025 Myanmar Worship Center</h1>
       </div>
     </div>
   );
