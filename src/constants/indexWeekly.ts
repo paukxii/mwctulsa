@@ -49,7 +49,7 @@ export const our_shcedules = [
 export const upcoming_events = [
     {
         name: 'Weekly',
-        image: '/imgs/weekly/Weekly-02-02-2025.jpg',
+        image: '/imgs/weekly/Weekly-02-09-2025.jpg',
     },
     // {
     //     name: 'Weekly',
