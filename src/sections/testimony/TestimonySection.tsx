@@ -9,11 +9,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination, Scrollbar } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import { SectionHeader } from '../../components/SectionHeader';
 
 export default function TestimonySection() {
   
   return (
-    <SectionContainer id='testimony' bgColor=''>
+    <SectionContainer id='testimonies'>
+      <SectionHeader>Testimonies</SectionHeader>
       <Swiper
         modules={[Autoplay, Navigation, Pagination, Scrollbar]}
         spaceBetween={5}

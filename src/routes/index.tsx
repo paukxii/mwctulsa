@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import RootLayout from './RootLayout';
 import MainPage from '../pages/MainPage';
 import LeadersPage from '../pages/LeadersPage';
+import LeaderDetails from '../components/LeaderDetails';
 
 export const routes = createBrowserRouter([
     { 
@@ -14,7 +15,13 @@ export const routes = createBrowserRouter([
             },
             {
                 path: 'leaders',
-                element: <LeadersPage />
+                element: <LeadersPage />,
+                children: [
+                    {
+                        path: ':leaderId',
+                        element: <LeaderDetails />,
+                    }
+                ]
             }
         ]
     },

@@ -26,6 +26,10 @@ export const navbar_items = [
         name: 'stream'
     },
     {
+        link: 'visions',
+        name: 'visions'
+    },
+    {
         link: 'ministers',
         name: 'our leaders'
     },
@@ -34,9 +38,21 @@ export const navbar_items = [
         name: 'ministries'
     },
     {
+        link: 'volunteers',
+        name: 'volunteers'
+    },
+    {
+        link: 'testimonies',
+        name: 'testimonies'
+    },
+    {
         link: 'offering',
         name: 'give'
     },
+    {
+        link: 'footer',
+        name: 'about us'
+    }
 ]
 
 export const visions = [
@@ -46,7 +62,7 @@ export const visions = [
         line_2: '■ ယုံကြည်သူတိုင်း နှုတ်ကပတ်တော်နှင့်သော်လည်းကောင်း၊ ဝိညာဥ်တော်နှင့်သော်လည်းကောင်း ပြည့်ဝလျှက် ရင့်ကျတ်ခြင်းသို့ ဦးတည်ကာ ဘုရားပေးစွမ်းရည် အသီးသီးကို အသုံးပြုလျှက် ဘုရားနိုင်ငံတော် ကျယ်ပြန့်လာစေရန်။'
     },
     {
-        title: 'အသင်းတော်၏\nရူပါရုံ',
+        title: 'အသင်းတော်၏ ရူပါရုံ',
         line_1: '■ လူအ‌ပေါင်း (လူမျိုးတကာ) ကယ်တင်ခြင်းသို့ရောက်ပြီး၊ ကယ်တင်ခြင်းသို့ ရောက်ပြီးသောသူတိုင်း သမ္မာတရားအတိုင်း ကျင်လည်အသက်ရှင်လာစေရန်။',
         line_2: '■ အနာဂါတ်ခေါင်းဆောင်ကောင်းများ မွေးထုတ်ရန်။',
         line_3: '■ အသက်ရှင်သော ဆင့်ပွားအသင်းတော်များစွာ ပေါ်ပေါက်လာရန်။'

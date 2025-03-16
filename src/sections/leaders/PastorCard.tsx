@@ -24,7 +24,7 @@ export default function PastorCard({ pastor }: Pastor) {
   return (
     <div className={`flex flex-col ${colSpanClass} justify-center items-center p-5`}>
       <div className='cursor-pointer'>
-        <RouterLink className='sm:flex sm:flex-col-2' to={`/leaders?tab=${pastor.id}`}>
+        <RouterLink className='sm:flex sm:flex-col-2' to={`/leaders/${pastor.name}`}>
           <div className='bg-slate-300 relative max-w-min overflow-hidden rounded-full'>
             <img
               src={pastor.thumbnail_img}
