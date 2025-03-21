@@ -7,13 +7,25 @@ import Visions from '../sections/visions/Visions';
 import TestimonySection from '../sections/testimony/TestimonySection';
 import Offering from '../sections/offering/Offering';
 import Volunteer from '../sections/volunteer/Volunteer';
-import Topbar from '../components/Topbar';
 import FooterSection from '../sections/footer/FooterSection';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export default function MainPage() {
+  const locatoin = useLocation()
+
+  useEffect(() => {
+    const hash = locatoin.hash
+    if (hash) {
+      const element = document.querySelector(hash)
+      if (element) {
+        element.scrollIntoView({ behavior:'smooth' })
+      }
+    }
+  },[locatoin])
+
   return (
-    <>
-      <Topbar />
+    <div className='w-screen'>
       <HeroSection />
       <Schedules />
       <EventSection />
@@ -24,6 +36,6 @@ export default function MainPage() {
       <TestimonySection />
       <Offering />
       <FooterSection />
-    </>
+    </div>
   )
 }
